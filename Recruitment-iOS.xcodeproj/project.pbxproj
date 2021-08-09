@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		A4802C381D8ACB320032AF25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4802C321D8ACB320032AF25 /* AppDelegate.swift */; };
-		A4802C391D8ACB320032AF25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4802C331D8ACB320032AF25 /* Main.storyboard */; };
 		A4802C3A1D8ACB320032AF25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4802C341D8ACB320032AF25 /* Assets.xcassets */; };
 		A4802C3B1D8ACB320032AF25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4802C351D8ACB320032AF25 /* LaunchScreen.storyboard */; };
 		A4802C3C1D8ACB320032AF25 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4802C361D8ACB320032AF25 /* TableViewController.swift */; };
@@ -23,13 +22,16 @@
 		A4802C511D8ACB840032AF25 /* JSONParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4802C4D1D8ACB840032AF25 /* JSONParser.swift */; };
 		A4802C521D8ACB840032AF25 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4802C4E1D8ACB840032AF25 /* NetworkingManager.swift */; };
 		A4802C531D8ACB840032AF25 /* ItemDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4802C4F1D8ACB840032AF25 /* ItemDetailsModel.swift */; };
+		FA9DE9B526C14BAE00A00EA6 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DE9B426C14BAE00A00EA6 /* StartViewController.swift */; };
+		FA9DE9B826C14BE500A00EA6 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DE9B726C14BE500A00EA6 /* StartView.swift */; };
+		FA9DE9BD26C1588600A00EA6 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DE9BC26C1588500A00EA6 /* TabBarController.swift */; };
+		FA9DE9C326C16F3200A00EA6 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9DE9C226C16F3200A00EA6 /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A4802C1B1D8ACA5F0032AF25 /* Recruitment-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recruitment-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4802C2A1D8ACA5F0032AF25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A4802C321D8ACB320032AF25 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A4802C331D8ACB320032AF25 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A4802C341D8ACB320032AF25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4802C351D8ACB320032AF25 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4802C361D8ACB320032AF25 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
@@ -44,6 +46,10 @@
 		A4802C4D1D8ACB840032AF25 /* JSONParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONParser.swift; sourceTree = "<group>"; };
 		A4802C4E1D8ACB840032AF25 /* NetworkingManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		A4802C4F1D8ACB840032AF25 /* ItemDetailsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsModel.swift; sourceTree = "<group>"; };
+		FA9DE9B426C14BAE00A00EA6 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		FA9DE9B726C14BE500A00EA6 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		FA9DE9BC26C1588500A00EA6 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		FA9DE9C226C16F3200A00EA6 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,14 +82,12 @@
 		A4802C1D1D8ACA5F0032AF25 /* Recruitment-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				FA9DE9AD26C14AA500A00EA6 /* Views */,
 				A4802C3E1D8ACB6E0032AF25 /* Networking */,
 				A4802C2A1D8ACA5F0032AF25 /* Info.plist */,
 				A4802C321D8ACB320032AF25 /* AppDelegate.swift */,
-				A4802C331D8ACB320032AF25 /* Main.storyboard */,
 				A4802C341D8ACB320032AF25 /* Assets.xcassets */,
 				A4802C351D8ACB320032AF25 /* LaunchScreen.storyboard */,
-				A4802C361D8ACB320032AF25 /* TableViewController.swift */,
-				A4802C371D8ACB320032AF25 /* DetailsViewController.swift */,
 			);
 			path = "Recruitment-iOS";
 			sourceTree = "<group>";
@@ -111,6 +115,91 @@
 				A4802C451D8ACB7B0032AF25 /* Item5.json */,
 			);
 			name = JSON;
+			sourceTree = "<group>";
+		};
+		FA9DE9AD26C14AA500A00EA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9B026C14B5E00A00EA6 /* Details */,
+				FA9DE9AF26C14B1800A00EA6 /* TabBar */,
+				FA9DE9AE26C14AAB00A00EA6 /* Start */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA9DE9AE26C14AAB00A00EA6 /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9B226C14B7600A00EA6 /* Controllers */,
+				FA9DE9B126C14B6C00A00EA6 /* Views */,
+			);
+			name = Start;
+			sourceTree = "<group>";
+		};
+		FA9DE9AF26C14B1800A00EA6 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9BB26C156AA00A00EA6 /* Controllers */,
+				FA9DE9BA26C156A000A00EA6 /* Views */,
+			);
+			name = TabBar;
+			sourceTree = "<group>";
+		};
+		FA9DE9B026C14B5E00A00EA6 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9C126C16F1B00A00EA6 /* Controllers */,
+				FA9DE9C026C16F1700A00EA6 /* Views */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		FA9DE9B126C14B6C00A00EA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9B726C14BE500A00EA6 /* StartView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA9DE9B226C14B7600A00EA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9B426C14BAE00A00EA6 /* StartViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FA9DE9BA26C156A000A00EA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA9DE9BB26C156AA00A00EA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9BC26C1588500A00EA6 /* TabBarController.swift */,
+				A4802C361D8ACB320032AF25 /* TableViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		FA9DE9C026C16F1700A00EA6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FA9DE9C226C16F3200A00EA6 /* DetailsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		FA9DE9C126C16F1B00A00EA6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A4802C371D8ACB320032AF25 /* DetailsViewController.swift */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,7 +269,6 @@
 				A4802C4A1D8ACB7B0032AF25 /* Item4.json in Resources */,
 				A4802C4B1D8ACB7B0032AF25 /* Item5.json in Resources */,
 				A4802C3A1D8ACB320032AF25 /* Assets.xcassets in Resources */,
-				A4802C391D8ACB320032AF25 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -191,9 +279,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9DE9B826C14BE500A00EA6 /* StartView.swift in Sources */,
 				A4802C381D8ACB320032AF25 /* AppDelegate.swift in Sources */,
+				FA9DE9B526C14BAE00A00EA6 /* StartViewController.swift in Sources */,
+				FA9DE9BD26C1588600A00EA6 /* TabBarController.swift in Sources */,
 				A4802C511D8ACB840032AF25 /* JSONParser.swift in Sources */,
 				A4802C3C1D8ACB320032AF25 /* TableViewController.swift in Sources */,
+				FA9DE9C326C16F3200A00EA6 /* DetailsView.swift in Sources */,
 				A4802C521D8ACB840032AF25 /* NetworkingManager.swift in Sources */,
 				A4802C531D8ACB840032AF25 /* ItemDetailsModel.swift in Sources */,
 				A4802C501D8ACB840032AF25 /* ItemModel.swift in Sources */,

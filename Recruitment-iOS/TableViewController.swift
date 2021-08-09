@@ -23,7 +23,7 @@ class TableViewController: UITableViewController, NetworkingManagerDelegate {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "CellID", for: indexPath)
+        let cell = UITableViewCell(style: .default, reuseIdentifier: "UITableViewCell")
         let itemModel = itemModels[indexPath.row]
         cell.backgroundColor = itemModel.color
         cell.textLabel?.text = itemModel.name
@@ -39,4 +39,13 @@ class TableViewController: UITableViewController, NetworkingManagerDelegate {
         
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.deselectRow(at: indexPath, animated: true)
+        showDetails()
+    }
+    
+    private func showDetails(){
+            let viewController = DetailsViewController()
+            navigationController?.pushViewController(viewController, animated: true)
+    }
 }
